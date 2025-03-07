@@ -1,6 +1,6 @@
 # Teste Técnico Frontend BeTalent
 
-O Teste Técnico segue a estrutura do projeto demonstrado no figma
+O Teste Técnico segue a estrutura e o design do projeto apresentados no Figma.
 
 ## Tecnologias Utilizadas:
 
@@ -11,9 +11,11 @@ Yarn
 json-server 
 
 ## Apresentação:
+Imagem do projeto, seguindo o design do figma:
 ![imagem do teste para web](image.png)
-![Responsividade](image-1.png)
 
+![Responsividade](image-1.png)
+Imagem do projeto responsivo, seguindo o maximo o design do figma:
 ## ⚙️ Instalação:
 Clone o repositório e instale as dependências:
 ```bash
