@@ -1,8 +1,38 @@
-# React + Vite
+# Teste Técnico Frontend BeTalent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Teste Técnico segue a estrutura do projeto demonstrado no figma
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js
+Git e  GitHub
+Node.js
+Yarn
+json-server 
+
+## Apresentação:
+![imagem do teste para web](image.png)
+![Responsividade](image-1.png)
+
+## ⚙️ Instalação:
+Clone o repositório e instale as dependências:
+```bash
+git clone https://github.com/hbruunno/TesteTecnicoFrontendBeTalent.git
+cd teste-pratico-frontend
+npm install
+```
+
+## 🚀 Rodando o Projeto
+Para rodar executar o servidor banco de dados:
+```bash
+npx json-server --watch db.json
+```
+Execultar o projeto:
+```bash
+yarn dev
+```
+## Desafios:
+
+Um dos principais desafios foi lidar com a estrutura da tabela, não apenas com a tabela em si, mas principalmente com a sua responsividade. Para garantir que a tabela se adaptasse bem a diferentes tamanhos de tela, utilizei CSS para ocultar algumas informações em dispositivos menores, proporcionando uma visualização mais fluida e agradável.
+
+Além disso, ao formatar datas e números, consultei documentos e referências para garantir que os valores fossem apresentados corretamente de acordo com o formato necessário, implementando as funções necessárias nos códigos.

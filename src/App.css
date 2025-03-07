@@ -123,6 +123,7 @@ td, th {
 
 .th3{
   width: 20%; 
+  margin-left: -10px;
 }
 
 .mostrar{
@@ -182,10 +183,10 @@ tbody .button{
   .th2{
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 25px;
   } 
   
-  .mostrar{
+  .exibir{
     display: flex;
     flex-direction: column;
   }
@@ -206,12 +207,6 @@ tbody .button{
   th{
     padding: 10px;
   }
-  .ativo{
-    display: flex;
-    flex-direction: column; 
-    
-  }
-  
 
   .botao{
     display: flex;
@@ -223,8 +218,9 @@ tbody .button{
   .ponto{
     display: flex;
     justify-content: center;
+    padding-left: 35px;
   } 
-  .bol{
+  .ball{
     display: flex;
     background-color: #ffffff;    
     border-radius: 50%;

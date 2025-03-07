@@ -78,7 +78,7 @@ function App() {
             <th className='th3' >DATA DE ADMISSÃO</th>
             <th className='th3' >TELEFONE</th>
             <th className="ponto">
-              <div className="bol"></div>
+              <div className="ball"></div>
             </th>
           </tr>
         </thead>
@@ -104,9 +104,9 @@ function App() {
               </button> 
               </td>              
 
-              <td className='mostrar'>
+              <td className='exibir'>
                 {ativar === employee.id && (
-                  <div className="ativo" >
+                  <div >
                     <p><strong>Cargo:</strong> {employee.job} </p>
                     <p><strong>Admissão:</strong> {formatDate(employee.admission_date)}</p>
                     <p><strong>Telefone:</strong> {formatoFone(employee.phone)}</p>
